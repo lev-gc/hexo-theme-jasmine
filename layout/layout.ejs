@@ -59,6 +59,10 @@
     <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
     <%- partial('_partial/after-footer') %>
 </div>
-<script src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js"></script>
+
+<!-- Load canvas-nest -->
+<% if (theme.canvas_nest == true){ %>
+<%- js('js/canvas-nest') %>
+<% } %>
 </body>
 </html>

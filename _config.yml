@@ -7,6 +7,7 @@ rss: /atom.xml
 # Content
 excerpt_link: Read More
 fancybox: true
+canvas_nest: true
 
 # Sidebar
 sidebar: right
