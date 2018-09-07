@@ -2,11 +2,12 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+rss:
 
 # Content
 excerpt_link: Read More
 fancybox: true
+canvas_nest: true
 
 # Sidebar
 sidebar: right
