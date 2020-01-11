@@ -22,8 +22,8 @@
             </nav>
 
             <nav id="sub-nav">
-                <% if (config.github_link){ %>
-                <a class="fab fa-github nav-icon" href="<%- url_for(config.github_link) %>"
+                <% if (theme.github_link){ %>
+                <a class="fab fa-github nav-icon" href="<%- url_for(theme.github_link) %>"
                    title="<%= __('GitHub') %>"></a>
                 <% } %>
                 <!-- search -->
